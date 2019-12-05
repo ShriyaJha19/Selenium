@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossBrowserTestingSuite" duration-ms="136311" started-at="2019-12-04T18:02:43 EST" finished-at="2019-12-04T18:05:00 EST">
+    <groups>
+    </groups>
+    <test name="ChromeTestResults" duration-ms="46215" started-at="2019-12-04T18:02:43 EST" finished-at="2019-12-04T18:03:30 EST">
+      <class name="testNG.FB_CrossBrowserTesting">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:testNG.FB_CrossBrowserTesting@6c3708b3]" name="beforeClass" is-config="true" duration-ms="19252" started-at="2019-12-04T18:02:43 EST" finished-at="2019-12-04T18:03:03 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testNG.FB_CrossBrowserTesting@6c3708b3]" name="f" duration-ms="26898" started-at="2019-12-04T18:03:03 EST" finished-at="2019-12-04T18:03:30 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testNG.FB_CrossBrowserTesting -->
+    </test> <!-- ChromeTestResults -->
+    <test name="IeTestResults" duration-ms="48640" started-at="2019-12-04T18:03:30 EST" finished-at="2019-12-04T18:04:18 EST">
+      <class name="testNG.FB_CrossBrowserTesting">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:testNG.FB_CrossBrowserTesting@2758fe70]" name="beforeClass" is-config="true" duration-ms="38220" started-at="2019-12-04T18:03:30 EST" finished-at="2019-12-04T18:04:08 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testNG.FB_CrossBrowserTesting@2758fe70]" name="f" duration-ms="10411" started-at="2019-12-04T18:04:08 EST" finished-at="2019-12-04T18:04:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testNG.FB_CrossBrowserTesting -->
+    </test> <!-- IeTestResults -->
+    <test name="FirefoxTestResults" duration-ms="41015" started-at="2019-12-04T18:04:19 EST" finished-at="2019-12-04T18:05:00 EST">
+      <class name="testNG.FB_CrossBrowserTesting">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:testNG.FB_CrossBrowserTesting@6e6c3152]" name="beforeClass" is-config="true" duration-ms="30247" started-at="2019-12-04T18:04:19 EST" finished-at="2019-12-04T18:04:49 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testNG.FB_CrossBrowserTesting@6e6c3152]" name="f" duration-ms="10767" started-at="2019-12-04T18:04:49 EST" finished-at="2019-12-04T18:05:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testNG.FB_CrossBrowserTesting -->
+    </test> <!-- FirefoxTestResults -->
+  </suite> <!-- CrossBrowserTestingSuite -->
+</testng-results>
